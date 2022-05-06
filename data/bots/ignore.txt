@@ -1,0 +1,3 @@
+if you have files that are not related to your project, or not used in your project but should be available in the packaged app:
+
+you must use "extraFiles" in your package.json extraFiles would copy the files to the app conent directory on Mac OS, on Windows and Linux it will copy it to the app root directory. If you use extraResources it will copy the files to Contents/Resources on Mac and on Windows it will copy the files to resources Folder.
